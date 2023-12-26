@@ -1,3 +1,5 @@
+[![CI](https://github.com/jay-bhogayata/kubernetes-notes/actions/workflows/hugo.yaml/badge.svg?branch=main)](https://github.com/jay-bhogayata/kubernetes-notes/actions/workflows/hugo.yaml)
+
 # ![logo](/static/img/k8s.svg) Kubernetes Notes
 
 Hello there! This repository is a collection of my notes and insights on kubernetes.
