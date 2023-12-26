@@ -1,0 +1,52 @@
+baseURL: "jay-bhogayata.github.io"
+languageCode: en-us
+title: k8s-Notes
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "This site is a collection of my notes on kubernetes"
+
+  cover:
+    linkfullImages: true
+
+  showBreadCrumbs: true
+  showReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+
+  ShowShareButtons: true
+  
+
+
+  assets:
+    favicon: "/img/logo.ico"
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/jay-bhogayata"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/jaybhogayata"
+
+
+menu:
+  main:
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON 
